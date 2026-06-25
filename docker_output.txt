@@ -1,0 +1,18 @@
+﻿Client:
+ Version:           29.5.3
+ API version:       1.54
+ Go version:        go1.26.4
+ Git commit:        d1c06ef
+ Built:             Wed Jun  3 18:03:06 2026
+ OS/Arch:           windows/amd64
+ Context:           desktop-linux
+docker.exe : request returned 500 Internal Server Error for API route and version 
+http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.54/version, check if the server supports the 
+requested API version
+At line:1 char:50
++ ...  -Value ''; & 'C:\Program Files\Docker\Docker\resources\bin\docker.ex ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (request returne...ted API version:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
